@@ -1,4 +1,5 @@
 
+
 /*
 Write a Program Student and create an array of 10 students and display the students whose marks are more than 90%.
 Subham Amin.
@@ -19,11 +20,12 @@ class StudentsArray
             arr[i] = sc.nextInt();
         }
         // Calculate the total Marks
+		System.out.println(" Displaying Marks That More Than 90% Achived  ");//Printing With Output.
         for (int i = 0; i < n; i++) //Condition for loop.
 		{//Starting Loop.
             if (arr[i] >= 90) 
 			{
-                System.out.println(" Displaying Marks That More Than 90% Achived  " + arr[i]);
+				System.out.println(arr[i]);
             }
         }//End of for loop.
     }//End of Method.
