@@ -18,7 +18,7 @@ class StudentsArray
         {
             arr[i] = sc.nextInt();
         }
-        // Calculate the total ma2rks
+        // Calculate the total Marks
         for (int i = 0; i < n; i++) //Condition for loop.
 		{//Starting Loop.
             if (arr[i] >= 90) 
